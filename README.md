@@ -14,7 +14,7 @@ This is a dynamic TextView creaed by <a href="https://www.facebook.com/sansax.ba
 It is easy to use and has all the regular function of a normal TextView only More.
 
 <p align="center">
-  <img alt="Example usage" src="media/screen.jpg">
+  <img alt="Example usage" src="media/screen.png">
 </p>
 
 
