@@ -9,9 +9,8 @@ git clone www.github.com/sanneemmanuel/MultiColorTextView
 ```
  
 ## Intro
-This is a dynamic TextView creaed by <a href="https://www.facebook.com/sansax.bassist.5">Sanne Karibo</a> that enables Programmer add different colours to one textview
-It is easy to use and has all the regular function of a normal TextView only More.
-#Install
+This is a dynamic TextView creaed by <a href="https://www.facebook.com/sansax.bassist.5">Sanne Karibo</a> that enables Programmers add different colours to one textview
+It is easy to use and has all the regular functions of a normal TextView only More.
 
 <p align="center">
   <img alt="Example usage" src="media/screen.png">
