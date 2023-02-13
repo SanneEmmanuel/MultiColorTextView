@@ -49,16 +49,16 @@ package com.sanne;
 		}
 
 		//FUNCTION THAT COLOURS ALL THE OCCURANCES OF A TEXT
-		public void colourAll(String text,int color){
+		public void colorAll(String text,int color){
 			String fullText= this.getText().toString();
 			if(!fullText.contains(text))return;
 			for( int x=0; x< fullText.length();x++){
-				int start= fullText.indexOf(text,x);
-				if(start<0)break;
-				x= start+ text.length();
+				int starts= fullText.indexOf(text,x);
+				if(starts<0)break;
+				x= starts+ text.length();
 				Object obj= new ForegroundColorSpan(color);
 
-				spanz.add(new Spanz(obj,start,x));
+				spanz.add(new Spanz(obj,starts,x));
 
 			}
 			span= new SpannableString(fullText);
@@ -66,7 +66,7 @@ package com.sanne;
 		}
 
 		//FUNCTION THAT COLOURS THE FIRST OCCURANCE OF A DTRING IN TEXTVIEW
-		public void colourFirstOccurance(String text,int color){
+		public void colorFirstOccurance(String text,int color){
 			String fullText= this.getText().toString();
 			if(!fullText.contains(text))return;
 			int start= fullText.indexOf(text);
@@ -77,7 +77,7 @@ package com.sanne;
 			addSpans();
 		}
 		//FUNCTION THAT COLOURS THE LAST OCCURANCE OF A DTRING IN TEXTVIEW
-		public void colourLastOccurance(String text,int color){
+		public void colorLastOccurance(String text,int color){
 			String fullText= this.getText().toString();
 			if(!fullText.contains(text))return;
 			int start= fullText.lastIndexOf(text);
