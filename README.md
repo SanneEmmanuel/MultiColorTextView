@@ -2,7 +2,9 @@
 
 This Package Allows you to add multiple colours and styles to your text in Android Programing.
 It is easy to use and you can create dynamic designs with include gradient text and the ability to colour useful part of your text 
-To use kindly clone repository by
+To use kindly download the jar file <a href="https://raw.githubusercontent.com/SanneEmmanuel/MultiColorTextView/main/bin/MultiColorTextView.jar">here</a> and rename the file <i>MultiColorTextView.bin</i> to <b>MultiColorTextView.jar</b>
+ <b>OR</b>
+clone repository by
 
 ```shell
 git clone www.github.com/sanneemmanuel/MultiColorTextView
@@ -18,7 +20,7 @@ It is easy to use and has all the regular functions of a normal TextView only Mo
 
 
 ## Install
-To add the dependency to Your Project kindly navigate to the bin folder and copy the <b>MultiColorTextView.jar</b> and place in you <a href="https://stackoverflow.com/questions/11136485/how-can-i-create-libs-folder-in-my-project-android&ved=2ahUKEwiIt--D4JL9AhVna_EDHeqyBFcQrAIoAnoECA0QAw&usg=AOvVaw08NB84ARSV5vcKGWQueXXq">libs</a> folder
+To add the dependency to Your Project kindly navigate to the bin folder and copy the <b>MultiColorTextView.jar</b> or download  it <a href="https://raw.githubusercontent.com/SanneEmmanuel/MultiColorTextView/main/bin/MultiColorTextView.jar">here</a> Rename it to .jar not .bin and place in your <a href="https://stackoverflow.com/questions/11136485/how-can-i-create-libs-folder-in-my-project-android&ved=2ahUKEwiIt--D4JL9AhVna_EDHeqyBFcQrAIoAnoECA0QAw&usg=AOvVaw08NB84ARSV5vcKGWQueXXq">libs</a> folder
 Then use in Your Android Activity 
 ```Java
 import com.sanne.MultiColorTextView;
@@ -72,7 +74,7 @@ You Can Also add New Text with unique colours to each
 multiColorTextView.addText("A Text",android.graphics.Color.BLUE);
 ```
 
-<b> You can Colour Important Text with unique colour by
+<b> You can Colour Important Text with unique colour by</b>
 ```java
 multiTextView.colorAll("IMPORTANT TEXT",android.graphics.Color.RED);
 ```
